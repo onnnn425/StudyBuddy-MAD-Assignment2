@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/textBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&lt; Back"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp"
+            android:paddingBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textColor="@color/colorOnBackground"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="24dp"
+            android:text="Set up your StudyBuddy account"
+            android:textColor="@color/colorTextMuted"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@color/white"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:padding="14dp"
+            android:textColor="@color/colorOnBackground"
+            android:textColorHint="@color/colorTextMuted" />
+
+        <EditText
+            android:id="@+id/editStudentId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@color/white"
+            android:hint="e.g. 21WMR12345"
+            android:inputType="text"
+            android:padding="14dp"
+            android:textColor="@color/colorOnBackground"
+            android:textColorHint="@color/colorTextMuted" />
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@color/white"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="14dp"
+            android:textColor="@color/colorOnBackground"
+            android:textColorHint="@color/colorTextMuted" />
+
+        <EditText
+            android:id="@+id/editConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@color/white"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="14dp"
+            android:textColor="@color/colorOnBackground"
+            android:textColorHint="@color/colorTextMuted" />
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@color/white"
+            android:hint="Email (Optional)"
+            android:inputType="textEmailAddress"
+            android:padding="14dp"
+            android:textColor="@color/colorOnBackground"
+            android:textColorHint="@color/colorTextMuted" />
+
+        <EditText
+            android:id="@+id/editCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="@color/white"
+            android:hint="Course/Programme (Optional)"
+            android:inputType="text"
+            android:padding="14dp"
+            android:textColor="@color/colorOnBackground"
+            android:textColorHint="@color/colorTextMuted" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="6dp"
+            android:text="Security Question (for password recovery)"
+            android:textColor="@color/colorOnBackground"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editSecurityQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@color/white"
+            android:hint="e.g. What is your pet's name?"
+            android:inputType="text"
+            android:padding="14dp"
+            android:textColor="@color/colorOnBackground"
+            android:textColorHint="@color/colorTextMuted" />
+
+        <EditText
+            android:id="@+id/editSecurityAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="@color/white"
+            android:hint="Your answer"
+            android:inputType="text"
+            android:padding="14dp"
+            android:textColor="@color/colorOnBackground"
+            android:textColorHint="@color/colorTextMuted" />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="REGISTER"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingHorizontal="2dp"
+    android:paddingBottom="6dp">
+
+    <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_weight="1" android:text="Sun" android:gravity="center"
+        android:textSize="12sp" android:textColor="@color/colorTextMuted" android:textStyle="bold"/>
+    <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_weight="1" android:text="Mon" android:gravity="center"
+        android:textSize="12sp" android:textColor="@color/colorTextMuted" android:textStyle="bold"/>
+    <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_weight="1" android:text="Tue" android:gravity="center"
+        android:textSize="12sp" android:textColor="@color/colorTextMuted" android:textStyle="bold"/>
+    <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_weight="1" android:text="Wed" android:gravity="center"
+        android:textSize="12sp" android:textColor="@color/colorTextMuted" android:textStyle="bold"/>
+    <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_weight="1" android:text="Thu" android:gravity="center"
+        android:textSize="12sp" android:textColor="@color/colorTextMuted" android:textStyle="bold"/>
+    <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_weight="1" android:text="Fri" android:gravity="center"
+        android:textSize="12sp" android:textColor="@color/colorTextMuted" android:textStyle="bold"/>
+    <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_weight="1" android:text="Sat" android:gravity="center"
+        android:textSize="12sp" android:textColor="@color/colorTextMuted" android:textStyle="bold"/>
+
+</LinearLayout>

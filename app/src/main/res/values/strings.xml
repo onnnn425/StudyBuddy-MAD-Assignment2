@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StudyBuddy</string>
+    <string name="login">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email_hint">student@email.com</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="welcome_message">Hello, Student!</string>
+    <string name="dashboard_placeholder">Here&#8217;s your study overview for today</string>
+    <string name="tasks_placeholder">Task list will appear here.</string>
+    <string name="timetable_placeholder">Weekly timetable will appear here.</string>
+    <string name="notes_placeholder">Notes will appear here.</string>
+    <string name="pomodoro_placeholder">25:00</string>
+    <string name="calendar_placeholder">Study Calendar will appear here.</string>
+    <string name="profile_placeholder">Profile &#8211; edit your info here.</string>
+    <string name="pomodoro_timer">Pomodoro Timer</string>
+    <string name="study_calendar">Study Calendar</string>
+    <string name="profile">Profile</string>
+    <string name="start">Start</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_tasks">Tasks</string>
+    <string name="nav_timetable">Timetable</string>
+    <string name="nav_notes">Notes</string>
+    <string name="nav_more">More</string>
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_profile">Profile</string>
+</resources>
+

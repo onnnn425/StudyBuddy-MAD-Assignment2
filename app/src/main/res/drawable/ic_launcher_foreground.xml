@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!--notebook body-->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,22 L38,86 Q38,88 40,88 L74,88 Q76,88 76,86 L76,22 Q76,20 74,20 L40,20 Q38,20 38,22 Z" />
+
+    <!--spine-->
+    <path
+        android:fillColor="#DDDDDD"
+        android:pathData="M32,25 L38,25 L38,83 L32,83 Q30,83 30,81 L30,27 Q30,25 32,25 Z" />
+
+    <!--spiral rings-->
+    <path
+        android:fillColor="#BBBBBB"
+        android:pathData="M36,31 Q39,31 39,34 Q39,37 36,37 Q33,37 33,34 Q33,31 36,31 Z" />
+    <path
+        android:fillColor="#BBBBBB"
+        android:pathData="M36,43 Q39,43 39,46 Q39,49 36,49 Q33,49 33,46 Q33,43 36,43 Z" />
+    <path
+        android:fillColor="#BBBBBB"
+        android:pathData="M36,55 Q39,55 39,58 Q39,61 36,61 Q33,61 33,58 Q33,55 36,55 Z" />
+    <path
+        android:fillColor="#BBBBBB"
+        android:pathData="M36,67 Q39,67 39,70 Q39,73 36,73 Q33,73 33,70 Q33,67 36,67 Z" />
+
+    <!--lines on the notebook-->
+    <path
+        android:fillColor="#CCCCCC"
+        android:pathData="M44,36 L70,36"
+        android:strokeWidth="2.5"
+        android:strokeColor="#CCCCCC" />
+    <path
+        android:fillColor="#CCCCCC"
+        android:pathData="M44,44 L70,44"
+        android:strokeWidth="2.5"
+        android:strokeColor="#CCCCCC" />
+    <path
+        android:fillColor="#CCCCCC"
+        android:pathData="M44,52 L70,52"
+        android:strokeWidth="2.5"
+        android:strokeColor="#CCCCCC" />
+    <path
+        android:fillColor="#CCCCCC"
+        android:pathData="M44,60 L70,60"
+        android:strokeWidth="2.5"
+        android:strokeColor="#CCCCCC" />
+    <path
+        android:fillColor="#CCCCCC"
+        android:pathData="M44,68 L62,68"
+        android:strokeWidth="2.5"
+        android:strokeColor="#CCCCCC" />
+
+</vector>
+
